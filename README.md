@@ -7,5 +7,4 @@ A opção de selecionar individualmente cada Condado, retorna o quantitativo de 
 
 # Map-ISP
 
-Mapa Desafio ISP
 Como o banco de dados fornecido não permite alterações, nem remoções, os condados com nomes duplicados (mesmo que sem registro de câmeras) receberam o mesmo valor de seu homólogo, pois não existe coluna de identificador unificada, ou lat long, apenas a coluna County (Traffic Camera) e Names (Condados) utilizadas como chave em comum, o que não permite muita flexibilidade quanto a duplicidade. 
