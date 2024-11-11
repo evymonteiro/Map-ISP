@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;           
+    margin: 0;             
+}
+
+#header {
+    position: fixed;       
+    top: 10px;              
+    left: 50%;              
+    transform: translateX(-50%);  
+    z-index: 1000;          
+    font-weight: bold;      
+    color: #444;            
+    font-size: 16px;       
+}
+
+
+#viewDiv {
+    height: 100%;           
+}
+
+
+.controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.7);  
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#countySelect {
+    width: 200px;
+}
+
+button {
+    background-color: #3b8b8c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #2e6f6e;
+}
+
+
+#legend .esri-widget .esri-icon {
+    width: 20px;               
+    height: 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPA CÂMERAS DE TRÂNSITO</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.31/esri/themes/light/main.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="header">
+        <span id="mapTitle">Traffic Cameras US Map</span>
+        <span id="copyright">© Esri</span>
+    </div>
+
+    <div id="viewDiv"></div>
+
+    <!-- Controles de filtros -->
+    <div class="controls">
+        <label for="countySelect">Selecione um Condado: </label>
+        <select id="countySelect">
+            <option value="">Todos os Condados</option>
+        </select>
+        <br>
+        <button id="searchButton">Aplicar Filtro</button>
+        <button id="clearButton">Limpar Filtro</button>
+    </div>
+
+    <script src="https://js.arcgis.com/4.31/"></script>
+    <script src="main.js"></script>
+</body>
+</html>
