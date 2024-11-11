@@ -4,6 +4,8 @@ Selecionar o Condado ou a opção "Todos os Condados", clicar em aplicar filtro,
 A opção "Todos os Condados" retorna um mapa temático, graduado por intensidade de cor, que simboliza a quantidade de câmeras presentes em cada Condado (Polígono), quanto mais forte a tonalidade, maior a presença de câmeras.
 A opção de selecionar individualmente cada Condado, retorna o quantitativo de câmeras para aquele Condado em específico. 
 
+Dados disponibilizados e sob direitos: Esri - https://www.esri.com/pt-br/home
+
 
 # Map-ISP
 
